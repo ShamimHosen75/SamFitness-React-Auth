@@ -11,6 +11,7 @@ import ServiceDetails from './Components/Pages/ServiceDetails/ServiceDetails';
 import Welldone from './Components/Pages/Welldone/Welldone';
 import Footer from './Components/Sheared/Footer/Footer';
 import NavBar from './Components/Sheared/NavBar/NavBar';
+import PrivateRoute from './Components/Sheared/PrivateRoute/PrivateRoute';
 // import PrivateRoute from './Components/Sheared/PrivateRoute/PrivateRoute';
 
 function App() {
@@ -26,7 +27,11 @@ function App() {
           <Route path="/about" element={<About />}/>
           <Route path="/login" element={<Login />}/>
           <Route path="/register" element={<Register />}/>
-          <Route path="/ServiceDetails/:serviceID" element={<ServiceDetails />}/>
+          <Route path="/ServiceDetails/:serviceID" element={
+            <PrivateRoute>
+              <ServiceDetails />
+            </PrivateRoute>
+          }/>
           <Route path="/welldone" element={<Welldone />}/>
           <Route path="/*" element={<NotFound />}/>
         </Routes>

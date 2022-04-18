@@ -16,7 +16,7 @@ const About = () => {
             <Container>
                 <div className="text-center my-3">
                     <h2 className="my-3">A LITTLE BIT ABOUT US</h2>
-                    <p className="px-5">Dipto Hospital Ltd. is an advanced Centre for diagnostic and medical services. It is one of the prestigious diagnostic complexes of Bangladesh which started its activities in 1983. Dipto Hospital Ltd. is the largest diagnostic services provider organization in private sector of the country. It is been pioneer in introducing world latest medical equipments and advanced technology to provide round the clock medical investigations and consultancy services.</p>
+                    <p className="px-5">Sam Fitness Center.There was a time where I felt uncomfortable in my clothes and my skin. I knew that I was carrying a little bit of extra weight compared to my friends around my age, and looking back now, it wasn't even that much. But it was enough at the time to knock my confidence - it got me down and I tried to diet.I didn't know what I was doing. I had no direction and without a plan, I made a lot of mistakes. I started to learn about nutrition and making slightly better food choices. I learned about training plans and making sure that the time I was spending in the gym was effective.</p>
                     <div>
                         
                     </div>

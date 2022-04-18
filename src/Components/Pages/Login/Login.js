@@ -6,6 +6,7 @@ import useAuth from '../../../Hooks/useAuth';
 
 const Login = () => {
     const {
+        user,
         googleSignIn,
         getEmail,
         getPassword,
@@ -16,8 +17,12 @@ const Login = () => {
         setIsLoading
     } = useAuth();
     const location = useLocation()
-    const history = useNavigate()
-    const redirect_url = location.state?.from || '/home';
+    const navigate = useNavigate()
+    const from = location.state?.from?.pathname || '/';
+
+    if(user){
+        navigate(from, { replace: true });
+    }
     
     const handleEmail = (e) => {
         const email = e.target.value;
@@ -34,7 +39,6 @@ const Login = () => {
             .then(result => {
                 const user = result.user;
                 setUser(user);
-                history.push(redirect_url);
             })
             .catch(error => {
                 setError(error.massage)
@@ -47,7 +51,6 @@ const Login = () => {
             .then(result => {
                 const user = result.user;
                 setUser(user);
-                history.push(redirect_url);
             })
             .catch(error => {
                 setError(error.massage)
