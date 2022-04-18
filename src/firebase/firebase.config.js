@@ -1,10 +1,10 @@
 const firebaseConfig = {
-  apiKey: "AIzaSyB6eb7RVOfY-II0Lj9lTEvkVixygCtskSA",
-  authDomain: "diptohospital.firebaseapp.com",
-  projectId: "diptohospital",
-  storageBucket: "diptohospital.appspot.com",
-  messagingSenderId: "323819509829",
-  appId: "1:323819509829:web:cee6d6154c576be4bb6b2c"
+  apiKey: "AIzaSyBanj5dJGjsLXM14c-iGJYgGzq0UEMkdUA",
+  authDomain: "samfitnessc.firebaseapp.com",
+  projectId: "samfitnessc",
+  storageBucket: "samfitnessc.appspot.com",
+  messagingSenderId: "743101823741",
+  appId: "1:743101823741:web:994d1ccd72168f9fefdc94"
 };
 
 export default firebaseConfig;
