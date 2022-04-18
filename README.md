@@ -1,8 +1,8 @@
 # SAM FITNESS CENTER. (responsive)
 This is a Digital or Modern Fitness Training website
 
-Live Site Link ===> https://samfitnessc.web.app
-
+Live Site Link  Firebase ===> https://samfitnessc.web.app
+Live Site Link Netlify ===> https://sam-fitness.netlify.app/
 ## Functionalist Of this site
 - It's a gymnasium related website.
 - I used React-Bootstrap as a framework to create this website.
