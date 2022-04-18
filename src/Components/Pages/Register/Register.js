@@ -60,7 +60,7 @@ const Register = () => {
         <div className="d-flex justify-content-center align-items-center my-5">
             <div style={{ boxShadow: "0px 0px 8px 0px #ddd" }} className=" text-center rounded-2 p-4">
                 <div
-                    style={{ height: '100px', width: '100px', background: '#12C1AD', fontSize: "60px" }}
+                    style={{ height: '100px', width: '100px', background: '#0077BB', fontSize: "60px" }}
                     className='d-flex justify-content-center align-items-center rounded-circle mx-auto'>
                     <FontAwesomeIcon icon={faUser}></FontAwesomeIcon>
                 </div>
@@ -78,7 +78,7 @@ const Register = () => {
                 <div>
                     <button
                         onClick={handleEmailRegister}
-                        style={{ background: '#12C1AD', outline: 'none', width: '260px' }}
+                        style={{ background: '#0077BB', outline: 'none', width: '260px' }}
                         className="btn mt-3 px-3 rounded-pill border-0 text-white">
                         Register 
                     </button>
@@ -88,7 +88,7 @@ const Register = () => {
                 <h6 className="my-2">---Or---</h6>
                 <button
                     onClick={handleGoogleRegister}
-                    style={{ background: '#12C1AD', outline: 'none', width: '260px' }}
+                    style={{ background: '#0077BB', outline: 'none', width: '260px' }}
                     className="btn px-2 rounded-pill border-0 text-white">
                     Register With Google 
                 </button>

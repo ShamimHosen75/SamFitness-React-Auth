@@ -52,7 +52,7 @@ const Footer = () => {
                     <Col md={4}>
                         <h4>Contact Us</h4>
                         <div
-                            style={{marginBottom:'16px', height:'3px',width:'120px',background:'#12C1AD'}}
+                            style={{marginBottom:'16px', height:'3px',width:'120px',background:'#0077BB'}}
                         >
                         </div>
                         <span
@@ -74,7 +74,7 @@ const Footer = () => {
                 </Row>
             </Container>
             <div className='bg-black text-center py-4'>
-                <span>Copyright © <span style={{color:'#12C1AD'}}>SamFitness</span> | All Rights Reserved</span>
+                <span>Copyright © <span style={{color:'#0077BB'}}>SamFitness</span> | All Rights Reserved</span>
             </div>
         </div>
     );

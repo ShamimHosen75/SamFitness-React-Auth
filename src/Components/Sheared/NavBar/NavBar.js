@@ -11,7 +11,7 @@ const NavBar = () => {
             <Container>
                 <Navbar expand="lg">
                     <Navbar.Brand>
-                        <Link to="/home">
+                        <Link className='text-decoration-none' to="/home">
                            <h3>SamFitness</h3>
                         </Link>
                     </Navbar.Brand>
@@ -27,7 +27,7 @@ const NavBar = () => {
                                     style={{ color: '#000', textDecoration: "none" }}
                                     activeStyle={{
                                         fontWeight: "bold",
-                                        color: "#12C1AD"
+                                        color: "#0077BB"
                                     }}>
                                     Home
                                 </NavLink>
@@ -38,7 +38,7 @@ const NavBar = () => {
                                     style={{ color: '#000', textDecoration: "none" }}
                                     activeStyle={{
                                         fontWeight: "bold",
-                                        color: "#12C1AD"
+                                        color: "#0077BB"
                                     }}>
                                     Services
                                 </NavLink>
@@ -49,7 +49,7 @@ const NavBar = () => {
                                     style={{ color: '#000', textDecoration: "none" }}
                                     activeStyle={{
                                         fontWeight: "bold",
-                                        color: "#12C1AD"
+                                        color: "#0077BB"
                                     }}>
                                     About
                                 </NavLink>
@@ -60,7 +60,7 @@ const NavBar = () => {
                                     style={{ color: '#000', textDecoration: "none" }}
                                     activeStyle={{
                                         fontWeight: "bold",
-                                        color: "#12C1AD"
+                                        color: "#0077BB"
                                     }}>
                                     Contact
                                 </NavLink>
@@ -81,11 +81,11 @@ const NavBar = () => {
                             </Button>}
                             {user.email ? <Button
                                 onClick={logOut}
-                                style={{ background: '#12C1AD', outline: 'none', color: '#fff' }}
+                                style={{ background: '#0077BB', outline: 'none', color: '#fff' }}
                                 className="rounded-pill border-0">
                                 LOGOUT
                             </Button> : <Button
-                                style={{ background: '#12C1AD', outline: 'none' }}
+                                style={{ background: '#0077BB', outline: 'none' }}
                                 className="rounded-pill border-0">
                                 <Link
                                     style={{ color: '#fff', textDecoration: "none" }}

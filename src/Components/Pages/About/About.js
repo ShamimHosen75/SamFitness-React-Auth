@@ -7,7 +7,7 @@ const About = () => {
     return (
         <div>
             <div
-                style={{ background: '#12C1AD' }}
+                style={{ background: '#0077BB' }}
                 className="fw-bold py-4  text-white">
                 <Container>
                     <h2>About Us</h2>
