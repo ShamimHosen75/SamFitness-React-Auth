@@ -1,5 +1,5 @@
 import React from 'react';
-import { Redirect, Route } from 'react-router';
+import { Navigate, Route } from 'react-router-dom';
 import useAuth from '../../../Hooks/useAuth';
 
 const PrivateRoute = ({ children, ...rest }) => {
@@ -15,12 +15,12 @@ const PrivateRoute = ({ children, ...rest }) => {
         return (
             <Route
             {...rest}
-            render={({ location }) => user.email ? children : <Redirect
+            render={({ location }) => user.email ? children : <Navigate
                 to={{
                     pathname: "/register",
                     state: { from: location }
                 }}
-            ></Redirect>
+            ></Navigate>
     
             }
         >

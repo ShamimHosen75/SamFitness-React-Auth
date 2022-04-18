@@ -1,8 +1,7 @@
 import React from 'react';
-import { Nav, Navbar, Button, Container } from 'react-bootstrap';
+import { Button, Container, Nav, Navbar } from 'react-bootstrap';
 import { Link, NavLink } from 'react-router-dom';
 import useAuth from '../../../Hooks/useAuth';
-import logo from '../../../images/logo.png'
 
 const NavBar = () => {
     const { user, logOut} = useAuth();
@@ -13,7 +12,7 @@ const NavBar = () => {
                 <Navbar expand="lg">
                     <Navbar.Brand>
                         <Link to="/home">
-                            <img src={logo} alt="" />
+                           <h3>SamFitness</h3>
                         </Link>
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="navbarScroll" />
@@ -42,17 +41,6 @@ const NavBar = () => {
                                         color: "#12C1AD"
                                     }}>
                                     Services
-                                </NavLink>
-                            </Nav.Link>
-                            <Nav.Link>
-                                <NavLink
-                                    to="/doctors"
-                                    style={{ color: '#000', textDecoration: "none" }}
-                                    activeStyle={{
-                                        fontWeight: "bold",
-                                        color: "#12C1AD"
-                                    }}>
-                                    Doctors
                                 </NavLink>
                             </Nav.Link>
                             <Nav.Link>

@@ -1,6 +1,5 @@
-import { Col, Container, Row, Button } from 'react-bootstrap';
-import { useParams } from 'react-router';
-import { Link } from 'react-router-dom';
+import { Button, Col, Container, Row } from 'react-bootstrap';
+import { Link, useParams } from 'react-router-dom';
 import services from '../../../utilities/services';
 
 const ServiceDetails = () => {

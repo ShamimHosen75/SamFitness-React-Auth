@@ -2,7 +2,6 @@ import { faClock, faHandHoldingMedical, faTrophy, faUsers } from '@fortawesome/f
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import team from '../../../images/team.png'
 
 const About = () => {
     return (
@@ -19,7 +18,7 @@ const About = () => {
                     <h2 className="my-3">A LITTLE BIT ABOUT US</h2>
                     <p className="px-5">Dipto Hospital Ltd. is an advanced Centre for diagnostic and medical services. It is one of the prestigious diagnostic complexes of Bangladesh which started its activities in 1983. Dipto Hospital Ltd. is the largest diagnostic services provider organization in private sector of the country. It is been pioneer in introducing world latest medical equipments and advanced technology to provide round the clock medical investigations and consultancy services.</p>
                     <div>
-                        <img className="img-fluid" src={team} alt="" />
+                        
                     </div>
                 </div>
                 <div className="my-3">

@@ -1,7 +1,7 @@
 import { faUser } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
-import { Link, useLocation,useHistory} from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import useAuth from '../../../Hooks/useAuth';
 
 const Register = () => {
@@ -16,7 +16,7 @@ const Register = () => {
         setIsLoading
     } = useAuth();
     const location = useLocation()
-    const history = useHistory()
+    const history = useNavigate()
     const redirect_url = location.state?.from || '/home';
     
     const handleEmail = (e) => {
