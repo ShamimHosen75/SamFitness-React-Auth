@@ -12,7 +12,7 @@ const NavBar = () => {
                 <Navbar expand="lg">
                     <Navbar.Brand>
                         <Link className='text-decoration-none' to="/home">
-                           <h3>SamFitness</h3>
+                           <h3>Sam-Fitness</h3>
                         </Link>
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="navbarScroll" />
