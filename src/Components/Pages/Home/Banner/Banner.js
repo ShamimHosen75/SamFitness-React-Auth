@@ -6,6 +6,9 @@ const Banner = () => {
             <h1 className='py-2' >STRENGTH TRAINING SIMPLIFIED</h1>
             <h1 className='text-primary' >Take Your Fitness To The Next Level</h1>
             <p>PREMIUM PERSONAL TRAINING SERVICES IN THE GLASGOW AREA</p>
+            <button className="btn bg-white rounded-pill px-4 mt-4">
+                START HERE
+            </button>
         </div>
     );
 };

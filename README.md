@@ -1,10 +1,11 @@
-SAM FITNESS CENTER. (responsive)
+#SAM FITNESS CENTER. (responsive)
 This is a Digital or Modern Fitness Training website
 
 Live Site Link ===> https://diptohospital.web.app/
 
-functionalist Of this site
+##Functionalist Of this site
 It's a gymnasium related website.
+I used React-Bootstrap as a framework to create this website.
 There are total 4 section in The Home page.
 If you Logged in you can see the details about the services and Fitness services.
 Or If you Don't Logged in it will Redirect you to Register page.
