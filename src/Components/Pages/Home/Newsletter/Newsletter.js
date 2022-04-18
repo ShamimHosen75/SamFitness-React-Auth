@@ -3,7 +3,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 
 const Newsletter = () => {
     return (
-        <div className="py-4 text-white" style={{ background: '#12C1AD' }}>
+        <div className="py-4 text-white" style={{ background: '#000000' }}>
             <Container>
                 <Row className="d-flex justify-content-center align-items-center">
                     <Col md={3}>
@@ -15,12 +15,12 @@ const Newsletter = () => {
                         <div className="d-flex justify-content-center align-items-center">
                             <div class="form-floating w-100">
                                 <input
-                                    style={{ background: '#00000030' }} 
+                                    style={{ background: '#fff' }} 
                                     type="email"
-                                    class="form-control border-0 py-3 px-3 rounded-pill text-white"
+                                    class="form-control border-0 py-3 px-3 rounded-pill text-dark"
                                     id="floatingInput"
                                     placeholder="Your Email" />
-                                <label for="floatingInput">Email address</label>
+                                <label className='text-dark' for="floatingInput">Email address</label>
                             </div>
                         </div>
                     </Col>

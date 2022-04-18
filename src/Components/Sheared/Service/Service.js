@@ -14,12 +14,12 @@ const Service = ({ service }) => {
                 <Card.Img
                     
                     variant="top"
-                    style={{ maxHeight: '160px' }}
-                    src={service.image} />
+                    style={{ maxHeight: '260px' }}
+                    src={service.img} />
                 <Card.Body>
                     <Card.Title>{service.name}</Card.Title>
                     <Card.Text>
-                        {service.description.slice(0, 100)}...
+                        {service.desc.slice(0, 100)}...
                     </Card.Text>
                     <Link
                         to={`/ServiceDetails/${service.id}`}

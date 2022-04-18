@@ -1,4 +1,4 @@
-import { faMapMarkerAlt, faPhoneAlt, faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faMapMarkerAlt, faPhoneAlt } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
@@ -11,7 +11,7 @@ const Footer = () => {
                     <Col md={4}>
                         <h4>About us</h4>
                         <div
-                            style={{marginBottom:'16px', height:'3px',width:'120px',background:'#12C1AD'}}
+                            style={{marginBottom:'16px', height:'3px',width:'120px',background:'#0077BB'}}
                         >
                         </div>
                         <span
@@ -33,7 +33,7 @@ const Footer = () => {
                     <Col md={4}>
                         <h4>Customer Service</h4>
                         <div
-                            style={{marginBottom:'16px', height:'3px',width:'120px',background:'#12C1AD'}}
+                            style={{marginBottom:'16px', height:'3px',width:'120px',background:'#0077BB'}}
                         >
                         </div>
                         <span
@@ -63,18 +63,18 @@ const Footer = () => {
                         <span
                             className="d-flex gap-2 mt-4 align-items-center">
                             <FontAwesomeIcon icon={faPhoneAlt}></FontAwesomeIcon>
-                            +880 1833923107
+                            +880 1786473796
                         </span>
                         <span
                             className="d-flex gap-2 mt-4 align-items-center">
                             <FontAwesomeIcon icon={faEnvelope}></FontAwesomeIcon>
-                            dev.romansheikh@gmail.com
+                            developer.shamim96@gmail.com
                         </span>
                     </Col>
                 </Row>
             </Container>
             <div className='bg-black text-center py-4'>
-                <span>Copyright © <span style={{color:'#12C1AD'}}>DiPto</span> . All Rights Reserved</span>
+                <span>Copyright © <span style={{color:'#12C1AD'}}>SamFitness</span> | All Rights Reserved</span>
             </div>
         </div>
     );

@@ -1,14 +1,13 @@
 import React from 'react';
 import { Container, Row } from 'react-bootstrap';
-import useServices from '../../../Hooks/useServices';
+import services from '../../../utilities/services';
 import Service from '../../Sheared/Service/Service';
 
 const OurServices = () => {
-    const { services } = useServices();
     return (
         <div>
             <div
-                style={{ background: '#12C1AD' }}
+                style={{ background: '#0077BB' }}
                 className="fw-bold py-4  text-white">
                 <Container>
                     <h2>Our Services</h2>
