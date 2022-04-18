@@ -31,7 +31,7 @@ const About = () => {
                                 </div>
                                 <div>
                                     <h4>24563</h4>
-                                    <span>HAPPY Patients</span>
+                                    <span>HAPPY Students</span>
                                 </div>
                             </div>
                         </Col>
@@ -41,7 +41,7 @@ const About = () => {
                                     <FontAwesomeIcon icon={faTrophy}></FontAwesomeIcon>
                                 </div>
                                 <div>
-                                    <h4>885</h4>
+                                    <h4>565</h4>
                                     <span>AWARDS Win</span>
                                 </div>
                             </div>
@@ -63,8 +63,8 @@ const About = () => {
                                     <FontAwesomeIcon icon={faHandHoldingMedical}></FontAwesomeIcon>
                                 </div>
                                 <div>
-                                    <h4>17380</h4>
-                                    <span>SUCCESSFUL Surgery</span>
+                                    <h4>775</h4>
+                                    <span>SUCCESSFUL Traning</span>
                                 </div>
                             </div>
                         </Col>
