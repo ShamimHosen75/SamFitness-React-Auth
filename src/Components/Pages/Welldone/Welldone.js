@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import welldone from '../../../images/welldone.jpg'
+import welldone from '../../../images/welldone.jpg';
 
 const Welldone = () => {
     return (
@@ -11,7 +11,7 @@ const Welldone = () => {
             </div>
             <div className='d-flex justify-content-center align-items-center my-2'>
                 <Button
-                    style={{ background: '#12C1AD', outline: 'none' }}
+                    style={{ background: '#0077BB', outline: 'none' }}
                     className="rounded-pill border-0 px-4 text-center">
                     <Link
                         style={{ color: '#fff', textDecoration: "none" }}

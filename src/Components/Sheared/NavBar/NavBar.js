@@ -56,6 +56,17 @@ const NavBar = () => {
                             </Nav.Link>
                             <Nav.Link>
                                 <NavLink
+                                    to="/blog"
+                                    style={{ color: '#000', textDecoration: "none" }}
+                                    activeStyle={{
+                                        fontWeight: "bold",
+                                        color: "#0077BB"
+                                    }}>
+                                    Blog
+                                </NavLink>
+                            </Nav.Link>
+                            <Nav.Link>
+                                <NavLink
                                     to="/contact"
                                     style={{ color: '#000', textDecoration: "none" }}
                                     activeStyle={{

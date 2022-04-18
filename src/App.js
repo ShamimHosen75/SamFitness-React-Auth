@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Blog from './Components/Blog/Blog';
 import AuthProvider from './Components/Context/AuthProvider/AuthProvider';
 import About from './Components/Pages/About/About';
 import Home from './Components/Pages/Home/Home/Home';
@@ -25,6 +26,7 @@ function App() {
           <Route path="/home" element={<Home />}/>
           <Route path="/services" element={<OurServices />}/>
           <Route path="/about" element={<About />}/>
+          <Route path="/blog" element={<Blog />}/>
           <Route path="/login" element={<Login />}/>
           <Route path="/register" element={<Register />}/>
           <Route path="/ServiceDetails/:serviceID" element={

@@ -5,7 +5,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 
 const Footer = () => {
     return (
-        <div className='text-white bg-secondary pt-4'>
+        <div className='text-dark bg-white pt-4'>
             <Container>
                 <Row className="py-4">
                     <Col md={4}>
@@ -63,7 +63,7 @@ const Footer = () => {
                         <span
                             className="d-flex gap-2 mt-4 align-items-center">
                             <FontAwesomeIcon icon={faPhoneAlt}></FontAwesomeIcon>
-                            +880 1786473796
+                            +880 1786 4737 96
                         </span>
                         <span
                             className="d-flex gap-2 mt-4 align-items-center">
@@ -73,7 +73,7 @@ const Footer = () => {
                     </Col>
                 </Row>
             </Container>
-            <div className='bg-black text-center py-4'>
+            <div className='bg-black text-white text-center py-4'>
                 <span>Copyright © <span style={{color:'#0077BB'}}>SamFitness</span> | All Rights Reserved</span>
             </div>
         </div>
